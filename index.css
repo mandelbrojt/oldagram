@@ -4,12 +4,22 @@ html, body {
     font-family: "Source Sans 3", sans-serif;
 }
 
-.container {
+main {
+    padding-top: 60px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+.app-header {
     margin: 0 auto;
     padding: 0 15px;;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: white;
     border-bottom: 1px solid #C6C6C6;
 }
 
@@ -28,12 +38,6 @@ html, body {
     border: 1px solid black;
     cursor: pointer;
 }
-
-/* .post-container {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-} */
 
 .post-header {
     display: flex;
@@ -54,12 +58,6 @@ html, body {
     font-size: 12px;
     margin-top: 0px;
 }
-
-/* post-img-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 
 #post-img {
     width: 100%;
