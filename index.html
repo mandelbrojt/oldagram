@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
     <title>Oldagram</title>
     <script src="index.js"></script>
     <link rel="stylesheet" href="index.css">
@@ -28,13 +29,18 @@
                     <p id="post-header-location">Zudert, Netherlands</p>
                 </div>
             </div>
-            <img id="post-img" src="images/post-vangogh.jpg" alt="An image uploaded by a user in Oldagram">
-            <div class="post-interactions">
-                <img id="like-btn" class="interaction-btn" src="images/icon-heart.png" alt="">
-                <img id="comment-btn" class="interaction-btn" src="images/icon-comment.png" alt="">
-                <img id="share-btn" class="interaction-btn" src="images/icon-dm.png" alt="">
+            <div class="post-img-container">
+                <img id="post-img" src="images/post-vangogh.jpg">
             </div>
-            <div class="post-activity"></div>
+            <div class="post-interactions">
+                <img id="like-btn" class="interaction-btn" src="images/icon-heart.png">
+                <img id="comment-btn" class="interaction-btn" src="images/icon-comment.png">
+                <img id="share-btn" class="interaction-btn" src="images/icon-dm.png">
+            </div>
+            <div class="post-activity">
+                <p id="post-likes"><span id="num-likes">300</span> likes</p>
+                <p id="usr-comment"><span id="usr-name">vicky</span> comment example</p>
+            </div>
         </section>
     </main>
 </body>
