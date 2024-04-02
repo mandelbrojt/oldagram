@@ -29,6 +29,12 @@ html, body {
     cursor: pointer;
 }
 
+/* .post-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+} */
+
 .post-header {
     display: flex;
     justify-content: left;
@@ -49,6 +55,12 @@ html, body {
     margin-top: 0px;
 }
 
+/* post-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
 #post-img {
     width: 100%;
     height: auto;
@@ -64,6 +76,32 @@ html, body {
 }
 
 .interaction-btn {
-    width: 21px;
+    width: 18px;
     height: auto;
+    cursor: pointer;
+}
+
+.post-activity {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#post-likes {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+#usr-comment {
+    margin-top: 0;
+}
+
+#post-likes,
+#usr-comment {
+    font-size: 13px;
+    padding-left: 13px;
+}
+
+#usr-name {
+    font-weight: bold;
 }
